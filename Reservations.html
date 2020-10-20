@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name ="viewport" content="width:device-width, initial-scale = 1.0">
+    <meta charset="UTF-8">
+    <title>Just Like Home Pet Sitting</title>
+    <link rel="stylesheet" href="Pet.css">
+</head>
+<body>
+<div id="wrapper">
+    <header><h1>Create a Reservation</h1></header>
+
+    <nav>
+        <ul>
+            <li><a href=Index.html>HOME</a><li>
+            <li><a href=Amenities.html>AMENITIES</a><li>
+            <li><a href=Reservations.html>RESERVATIONS</a><li>
+        </ul>
+    </nav>
+
+    <main>
+        <a href="Index.html"><img src="peeweeOnCouch.jpg" class="floatleft" height = "450" width = "500" alt="Cat sleeping"></a>
+
+        <h2>Please fill out this form for your stay</h2>
+
+        <form>
+            <label for="myName">* Your Name</label>
+            <input type="text" name="myName" id="myName" required><br>
+            <label for="petName">* Pet Name</label>
+            <input type="text" name="petName" id="petName" required><br>
+            <label for="petType">* Type of pet</label>
+            <input type="text" name="petType" id="petType" required><br>
+            <label for="myEmail">* E-mail</label>
+            <input type="email" name="myEmail" id="myEmail" required><br>
+            <label for="arrivalDate">* Arrival Date</label>
+            <input type="date" name="arrivalDate" id="arrivalDate" required><br>
+            <label for="nights">* Number of nights</label>
+            <input type="number" name="nights" id="nights" min="1" max="31" required><br>
+            <label for="myComments">* Special Instructions</label>
+            <textarea name="myComments" id="myComments" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Send Now">
+        </form>
+        <br>
+        <br>
+
+    </main>
+
+    <footer>
+        Just Like Home Pet Sitting
+        <br>
+        Phone Number: <a href="tel:555-555-5555">555-555-5555</a><br>   <!clickable link for a phone number>
+        <br>
+        <a href="mailto:zhuba@justlikehome.com">zhuba@justlikehome.com</a> <!clickable link for an email>
+    </footer>
+
+</div>
+</body>
+</html>
